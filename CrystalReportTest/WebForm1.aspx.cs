@@ -5,12 +5,18 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+using CrystalReportTest.Model;
+
 namespace CrystalReportTest
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ProductRepository db = new ProductRepository();
+            //List<ProductModel> items =  db.GetAll();
+
+            ProductDataSet ds = db.ExcuteDataSet();
 
         }
     }
