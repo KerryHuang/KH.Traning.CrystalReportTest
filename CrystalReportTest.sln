@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrystalReportTest", "CrystalReportTest\CrystalReportTest.csproj", "{E0D438D0-A62F-45C7-A1AC-6D49424648ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrystalReportMVC", "CrystalReportMVC\CrystalReportMVC.csproj", "{976ACF9D-733F-42DE-B183-DABD61F7E2EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +15,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E0D438D0-A62F-45C7-A1AC-6D49424648ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0D438D0-A62F-45C7-A1AC-6D49424648ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D438D0-A62F-45C7-A1AC-6D49424648ED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{E0D438D0-A62F-45C7-A1AC-6D49424648ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0D438D0-A62F-45C7-A1AC-6D49424648ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976ACF9D-733F-42DE-B183-DABD61F7E2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976ACF9D-733F-42DE-B183-DABD61F7E2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976ACF9D-733F-42DE-B183-DABD61F7E2EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{976ACF9D-733F-42DE-B183-DABD61F7E2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976ACF9D-733F-42DE-B183-DABD61F7E2EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
